@@ -9,6 +9,8 @@ class RaceCourt {
   }
   
   void addCar(Car car) {
+    //TODO: lav et loop som itererer over arrayet og lægger en bil ind
+    // på første ledige plads
     cars[0]=car;
   }
 }
